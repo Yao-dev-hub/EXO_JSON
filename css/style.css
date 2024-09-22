@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    background-color: rgba(199, 197, 197, 0.827);
+}
+
+.banniere {
+    background-image: url("../images/banniere4.jpg");
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.presentation-produits {
+    margin: 40px 10px;
+    padding: 20px ;
+    background-color: #d1cece9c;
+
+}
+
+
+.presentation-produits .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.presentation-produits .row{
+    padding: 20px;
+}
+.presentation-produits .row .col-lg-6 {
+    padding: 15px;
+}
+
+.presentation-produits .row .col-lg-6 h2 {
+    margin-bottom: 40px;
+}
+
+.barre {
+    padding-bottom: 10px;
+    border: 3px solid #000;
+    border-top-color: #00000000;
+    border-left-color: #00000000;
+    border-right-color: #00000000;
+}
+.barre:hover{
+    transition: 1s;
+    border-bottom-color: orange;
+}
+
+.presentation-produits .row .col-lg-10{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/*  */
+
+input {
+    border: 1px solid #000;
+    border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.connexion-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.connexion {
+    background-color: #cdcdcda2;
+}
+
+/*  */
+
+.voir-plus .row{
+    padding: 10px 5px;
+    background-color: #ffffff3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+
+.inscription {
+    height: 105vh;
+    background: #e6e6e680;
+
+}
+
+.inscription .row {
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inscription .row form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inscription .col-lg-5 {
+    padding: 10px 5px;
+    height: 550px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    background-color: rgba(132, 255, 132, 0.684);
+    /* padding: 250px 10px; */
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media(max-width : 768px) {
+    .inscription .col-lg-5 {
+        background-color: rgba(132, 255, 132, 0.684);
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+    }
+}
